@@ -36,15 +36,15 @@
 
     </RadioGroup>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Type in a size for ArrayList of EmptyObject instances"
-            android:textColor="@android:color/black"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="20dp"
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type in a size for ArrayList of EmptyObject instances"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
 
-            />
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -69,17 +69,16 @@
             android:layout_weight="1"
             android:text="Generate list"
             android:onClick="generateButtonClicked"
-            android:layout_marginRight="10dp"
             />
 
-        </LinearLayout>
+    </LinearLayout>
 
-        <CheckBox
-            android:id="@+id/use_same_instance"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Use the same EmptyObject instance"
-            android:layout_marginBottom="20dp"/>
+    <CheckBox
+        android:id="@+id/use_same_instance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use the same EmptyObject instance"
+        android:layout_marginBottom="20dp"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerview"
@@ -88,13 +87,12 @@
         android:layout_weight="1"
         />
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Launch intent"
-            android:onClick="launchButtonClicked"
-            android:layout_marginLeft="10dp"
-            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch intent"
+        android:onClick="launchButtonClicked"
+        android:layout_marginLeft="10dp"
+        />
 
 </LinearLayout>
